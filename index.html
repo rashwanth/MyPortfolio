@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Portfolio - Computer Science Grad Student</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="w3-light-grey w3-content" style="max-width:1600px">
+
+    <!-- Sidebar for navigation links -->
+    <nav class="w3-sidebar w3-bar-block w3-white w3-animate-left w3-text-grey w3-collapse w3-top w3-center"
+        style="z-index:3;width:300px;font-weight:bold" id="mySidebar"><br>
+        <h3 class="w3-padding-64 w3-center"><b>Sai Raswanth<br>Upalamirthi Muniramaiah</b></h3>
+        <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-hide-large">CLOSE</a>
+        <!-- Navigation items linking to different sections -->
+        <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT ME</a>
+        <a href="#experience" onclick="w3_close()" class="w3-bar-item w3-button">WORK EXPERIENCE</a>
+        <a href="#projects" onclick="w3_close()" class="w3-bar-item w3-button">PROJECTS</a>
+        <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+        
+    </nav>
+
+    <!-- Top menu for small screens (mobile) -->
+    <header class="w3-container w3-top w3-hide-large w3-white w3-xlarge w3-padding-16">
+        <span class="w3-left w3-padding">Sai Raswanth Upalamirthi Muniramaiah</span>
+        <a href="javascript:void(0)" class="w3-right w3-button w3-white" onclick="w3_open()">☰</a>
+    </header>
+
+    <!-- Overlay effect when sidebar is open on small screens -->
+    <div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer"
+        title="close side menu" id="myOverlay"></div>
+
+    <!-- Main content -->
+    <div class="w3-main" style="margin-left:300px">
+
+        <!-- Padding to push down content on smaller screens -->
+        <div class="w3-hide-large" style="margin-top:83px"></div>
+
+        <!-- Full width welcome image -->
+        <div class="w3-display-container w3-wide">
+            <img src="./images/Pic1.jpg" style="width:100%; height:100vh;" alt="Tech Enthusiast">
+            <div class="w3-display-bottomleft w3-padding-large w3-opacity">
+                <h1 class="w3-xxlarge w3-text-white">Welcome to My Portfolio</h1>
+            </div>
+        </div>
+
+        <!-- About Me section -->
+        <div class="w3-container w3-dark-grey w3-center w3-text-light-grey w3-padding-32" id="about">
+            <h4><b>About Me</b></h4>
+            <div class="w3-content w3-justify" style="max-width:600px">
+                <p>
+                    I am a computer science graduate student with a passion for understanding the full life cycle of software applications—from ideation and design to development and deployment. I began my journey in 2017 with a bachelor's degree in Electrical and Electronics Engineering (EEE), where I started programming with C. I later transitioned to Java due to its object-oriented nature, and gradually became deeply interested in machine learning.
+                </p>
+                <p>
+                    After completing an NPTEL course on machine learning, I gained a solid foundation in machine learning mathematics and deep learning models. Professionally, I began as a Data Analyst at Infosys, where I optimized SQL queries, improved database performance, and migrated stored procedures to Apache Scala for business logic calculations. I also proposed reverse logic for rebate calculations, enabling real-time responses for client requests.
+                </p>
+                <p>
+                    In August 2023, I moved to the U.S. to pursue a master’s in Computer Science. Currently, I am working as a DevOps Engineering Intern at Copart, where I focus on setting up NGINX as a reverse proxy, managing build pipelines with Jenkins, and deploying Docker containers using Kubernetes.
+                </p>
+                <p>Feel free to reach out to me at: <strong>mail: sairaswanthp@gmail.com</strong></p>
+                <p><strong>Phone: 703-909-2080</strong></p>
+                <!-- Social media section -->
+                <!-- Social media section -->
+                <div class="w3-center w3-padding-32">
+                    <!-- LinkedIn Icon -->
+                    <a href="https://www.linkedin.com/in/sairaswanth/" target="_blank" class="w3-button w3-large w3-light-grey">
+                        <i class="fab fa-linkedin w3-xlarge w3-text-blue"></i> LinkedIn
+                    </a>
+
+                    <!-- GitHub Icon -->
+                    <a href="https://github.com/rashwanth" target="_blank" class="w3-button w3-large w3-light-grey">
+                        <i class="fab fa-github w3-xlarge w3-text-black"></i> GitHub
+                    </a>
+
+                    <!-- LeetCode Icon -->
+                    <a href="https://leetcode.com/u/sairaswanthp/" target="_blank" class="w3-button w3-large w3-light-grey">
+                        <i class="fas fa-code w3-xlarge w3-text-orange"></i> LeetCode
+                    </a>
+                </div>
+                <hr class="w3-opacity">
+            </div>
+        </div>
+
+        <!-- Work Experience section -->
+        <div class="w3-container w3-dark-grey w3-center w3-padding-32" id="experience">
+            <h4><b>Work Experience</b></h4>
+            <div class="w3-content w3-justify" style="max-width:600px">
+                <!-- Copart Experience -->
+                <h5><strong>Copart | Remote</strong></h5>
+                <p><strong>DevOps Engineer</strong> (May 2024 - Present)</p>
+                <p>
+                    At Copart, my role as a DevOps Engineer involves configuring NGINX as a reverse proxy, managing Docker deployments in Kubernetes, and optimizing Jenkins CI/CD pipelines for various applications.
+                </p>
+                <ul class="w3-ul">
+                    <li>Deployed Docker containers into Kubernetes clusters to streamline application deployment.</li>
+                    <li>Configured NGINX for efficient traffic management and load balancing.</li>
+                    <li>Handled Jenkins pipeline configurations for various applications like Java, JRuby, and Python.</li>
+                    <li>Collaborated with cross-functional teams to optimize system performance and maintain high availability.</li>
+                </ul>
+                <hr class="w3-opacity">
+                <h5><strong>Infosys Information Technology | Chennai, India</strong></h5>
+                <p><strong>Digital Specialist Engineer</strong> (Aug 2021 - July 2023)</p>
+                <p>
+                    As a Digital Specialist Engineer at Infosys, I played a pivotal role in the Microsoft Incentive Operations project, 
+                    showcasing proficiency across diverse technologies such as .NET Framework MVC web applications, .NET Framework Form applications, 
+                    Azure Data Factory, Azure Synapse, and Azure Function Apps (serverless) in .NET Core. With a focus on SQL Server, I adeptly addressed 
+                    and resolved intricate business incentive-related challenges. Additionally, I proposed and implemented a robust design for loading large-scale 
+                    data from upstream systems, demonstrating strategic thinking and efficiency by utilizing Scala within the Azure Synapse environment.
+                </p>
+                <ul class="w3-ul">
+                    <li>Engaged in client meetings to gather requirements and provide technical solutions.</li>
+                    <li>Utilized Azure resources such as Azure Function Apps, Synapse Analytics Workspace, and more for seamless data integration.</li>
+                    <li>Collaborated with various teams to ensure optimal solution designs.</li>
+                    <li>Performed code reviews to maintain high code quality.</li>
+                </ul>
+                <hr class="w3-opacity">
+            </div>
+        </div>
+
+        <!-- Projects section -->
+        <div class="w3-container w3-light-grey w3-center w3-padding-32" id="projects">
+            <h4><b>Projects</b></h4>
+            <div class="w3-content w3-justify" style="max-width:600px">
+                <ul class="w3-ul">
+                    <li class="w3-padding-16">
+                        <strong>CS 571 – OS/161 Kernel Development</strong> 
+                        <br>
+                        <a href="https://github.com/rashwanth/os161_OS_playground" target="_blank">GitHub Repository</a>
+                        <br>
+                        Implemented core system calls (fork(), execv(), waitpid(), getpid(), getppid()). Developed kernel-level thread scheduling and process management in OS/161.
+                        <ul>
+                            <li>Resolved deadlock in the Stoplight Problem (a variation of the Dining Philosophers Problem) using locks.</li>
+                            <li>Designed and tested thread synchronization mechanisms for handling concurrency challenges.</li>
+                            <li>Developed process lifecycle management by implementing sys_fork() and sys_exit().</li>
+                            <li>Created and debugged system call test cases.</li>
+                        </ul>
+                        <strong>Skills:</strong> C, Operating Systems, Kernel Development, Process Management, Concurrency, Synchronization, Deadlock Prevention, Thread Scheduling, System Calls, Debugging.
+                    </li>
+                    <li class="w3-padding-16">
+                        <strong>Smart Luggage using Bluetooth</strong><br>
+                        Led a team to develop a smart luggage system controlled by a mobile app using Arduino and Bluetooth. Implemented GPS tracking and smooth navigation controls.
+                    </li>
+                    <li class="w3-padding-16">
+                        <strong>Optical Character Recognition (OCR) Android Application</strong><br>
+                        Developed an OCR-based Android app for capturing handwritten text and processing it with Keras machine learning models.
+                    </li>
+                    <li class="w3-padding-16">
+                        <strong>Book Your Slot - A Generic Slot Booking Web Application</strong><br>
+                        Built a slot booking application with Node.js and Express.js for backend, and Oracle for database. Focused on user-friendly design and secure data handling.
+                    </li>
+                </ul>
+                <hr class="w3-opacity">
+            </div>
+        </div>
+
+        <!-- Contact section -->
+        <div class="w3-container w3-light-grey w3-padding-32 w3-padding-large" id="contact">
+            <div class="w3-content" style="max-width:600px">
+                <h4 class="w3-center"><b>Contact Me</b></h4>
+                <p>You can reach me via email:</p>
+                <p><strong>Email:</strong> <a href="mailto:sairaswanthp@gmail.com">sairaswanthp@gmail.com</a></p>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,186 @@
+/* General Styles */
+body,
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: "Raleway", sans-serif;
+    color: #fff;
+    background-color: #000;
+}
+
+.w3-main {
+    background-color: #121212;
+    padding-bottom: 50px;
+}
+
+/* Sidebar */
+.w3-sidebar {
+    background-color: #000 !important;
+    color: white;
+}
+
+.w3-sidebar a {
+    color: white;
+    transition: 0.3s;
+}
+
+.w3-sidebar a:hover {
+    background-color: #333;
+}
+
+/* Header */
+.w3-top {
+    background-color: black !important;
+    color: white;
+}
+
+/* Main Title */
+.w3-display-container img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.w3-display-bottomleft h1 {
+    text-shadow: 3px 3px 10px black;
+}
+
+/* Sections */
+.w3-container {
+    padding: 50px;
+    text-align: center;
+}
+
+.w3-dark-grey {
+    background-color: black !important;
+}
+
+.w3-light-grey {
+    background-color: #1e1e1e !important;
+    color: white !important;
+}
+
+/* Social Media Buttons */
+.w3-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.w3-button i {
+    margin-right: 10px;
+}
+
+/* LinkedIn */
+.w3-button .fa-linkedin {
+    color: #0A66C2;
+}
+
+/* GitHub */
+.w3-button .fa-github {
+    color: white;
+}
+
+/* LeetCode */
+.w3-button .fa-code {
+    color: #FFA116;
+}
+
+/* Hover Effects */
+.w3-button:hover {
+    transform: scale(1.05);
+    background-color: #333;
+}
+
+/* Contact Section */
+#contact a {
+    color: #0A66C2;
+    font-weight: bold;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+.w3-black {
+    background-color: black !important;
+    color: white;
+    padding: 20px;
+    font-weight: bold;
+}
+/* General Hover Effects */
+a, .w3-button {
+    transition: 0.3s ease-in-out;
+}
+
+/* Sidebar Links - Hover */
+.w3-sidebar a:hover {
+    background-color: #333;
+    color: #ffffff;
+    transform: scale(1.05);
+}
+
+/* Navigation Bar (for small screens) */
+.w3-top a:hover {
+    background-color: #222;
+    color: white;
+}
+
+/* Social Media Icons - Hover */
+.w3-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.2);
+}
+
+/* Image Hover Effect */
+.w3-display-container img {
+    transition: opacity 0.5s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.w3-display-container img:hover {
+    opacity: 0.9;
+    transform: scale(1.02);
+}
+
+/* Section Headings - Hover */
+h4:hover, h5:hover {
+    color: #bbbbbb;
+    transition: color 0.3s;
+}
+
+/* List Items in Work Experience & Projects */
+.w3-ul li {
+    transition: 0.3s ease-in-out;
+}
+
+.w3-ul li:hover {
+    background-color: #222;
+    color: #ffffff;
+    transform: translateX(5px);
+}
+
+/* Contact Email Hover Effect */
+#contact a {
+    color: #0A66C2;
+    font-weight: bold;
+    transition: color 0.3s, transform 0.3s;
+}
+
+#contact a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+    transform: scale(1.1);
+}
+
+/* Footer - Hover Effect */
+.w3-black:hover {
+    background-color: #111;
+}
