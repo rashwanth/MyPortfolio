@@ -130,6 +130,20 @@
             <div class="w3-content w3-justify" style="max-width:600px">
                 <ul class="w3-ul">
                     <li class="w3-padding-16">
+                        <strong>GPU Kernel Performance Optimization – Roofline Analysis</strong> 
+                        <br>
+                        <a href="github.com/rashwanth/RooflineAnalysis_On_NVIDIA_GPU" target="_blank">GitHub Repository</a>
+                        <br>
+                        Replicated the optimization study from Charlene Yang’s “8 Steps to 3.7 TFLOP/s” on the GPP kernel from BerkeleyGW, targeting NVIDIA RTX 4060 Laptop GPU.((Fortran, Python))
+                        <ul>
+                            <li>Applied hierarchical Roofline model using Nsight Compute to analyze memory vs. compute performance bottlenecks.</li>
+                            <li>Achieved progressive performance gains through 6 steps including: replacing divides with reciprocals, reducing branching, loop unrolling, cache blocking, and occupancy tuning.</li>
+                            <li>Explored trade-offs between arithmetic intensity, register usage, and SM occupancy to maximize double-precision throughput.</li>
+                            <li>Visualized performance with AI vs. GFLOP/s charts at L1, L2, and DRAM levels, achieving up to ~4.7% improvement over baseline implementation.</li>
+                        </ul>
+                        <strong>Skills:</strong> C, Operating Systems, Kernel Development, Process Management, Concurrency, Synchronization, Deadlock Prevention, Thread Scheduling, System Calls, Debugging.
+                    </li>
+                    <li class="w3-padding-16">
                         <strong>CS 571 – OS/161 Kernel Development</strong> 
                         <br>
                         <a href="https://github.com/rashwanth/os161_OS_playground" target="_blank">GitHub Repository</a>
